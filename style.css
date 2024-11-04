@@ -1,0 +1,421 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.main{
+    padding: 20px;
+    ul{
+        justify-content: center;
+        display: flex;
+        gap: 25px;
+        font-weight: 600;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #fff;
+}
+
+ul li{
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+}
+ul li a{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: palevioletred;
+}
+}
+#home{
+    display: flex;
+    padding: 50px 20px;
+    justify-content: space-around;
+}
+.content{
+    padding-left: 10px;
+    margin: 60px 20px;
+    gap: 30px 0;
+    display: flex;
+    flex-direction: column;
+    h1{
+        color: pink;
+        font-size: 70px;
+    
+    }
+    h4{
+        color: pink;
+        font-size: 35px;
+        
+    }
+    ul{
+        display: flex;
+    }
+    ul li{
+        list-style: none;
+    }
+    
+}
+    
+    button{
+        color:palevioletred;
+        border: 2px solid pink;
+        border-radius: 50px;
+        background-color: whitesmoke;
+        display: flex;
+        padding: 10px;
+       
+    }
+    
+    button:hover{
+     color:black;
+     
+    }
+   .p-img{
+    width: 250px;
+    height: 250px;
+    margin: 50px 0;
+   border-radius: 50%;
+   box-shadow: 2px 3px 5px 5px palevioletred;
+   }
+.icon{
+    display: inline-flex;
+    
+}
+    .i{
+        display: inline-flex;
+        padding: 10px;
+        border: 2px solid pink;
+        border-radius: 50%;
+        font-size: 20px;
+        color: pink;
+        margin: 0 8px;
+        text-decoration: none;
+
+    }
+
+.about{
+    background:lightpink ;
+    padding: 50px 20px;
+    justify-content: space-around; 
+    h1{
+        color: #000;
+        font-size: 50px ;
+       text-align: center;
+    }
+h3{
+    text-align: center;
+    color: palevioletred;
+    padding-top: 60px;
+}
+p{
+    text-align: center;
+    color: black;
+    padding-top: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: inherit;
+    font-size: larger;
+}
+span{
+    color: rgb(216, 112, 147);
+    font-size: 20px;
+}
+}
+
+
+.skills{
+    background-color: #000;
+    justify-items: center;
+   padding: 40px;
+    
+    h1{
+        color: palevioletred;
+        text-align: center;
+        font-size: 50px;
+        padding: 30px;
+    }
+    .s-img{
+        width: 200px;
+        border: 3px solid palevioletred; 
+        padding: 10px 5px;
+        margin: 10px 0px;
+    }
+    .meter{
+        width: 180px;
+        padding-left: 20px;
+    }
+   b{
+    color: palevioletred;
+   }
+}
+
+.projects{
+    background-color: lightpink;
+    h1{
+        color: #000;
+        text-align: center;
+        padding: 40px;
+        font-size: 50px;
+    }
+    .project-content{
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+       
+    }
+    .pro-img{
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        border: 3px solid black;
+    }
+    .pro-link{
+        justify-content: center;
+        text-align: center;
+        color: #000;
+        padding: 45px;
+        text-decoration: none;
+    }
+    .pro-link:hover{
+        color: palevioletred;
+        text-shadow: 2px 2px lightpink;
+    }
+}
+
+.contact{
+    background:black ;
+    padding: 50px 20px;
+    justify-content: space-around; 
+    h1{
+        color: palevioletred;
+        font-size: 50px ;
+       text-align: center;
+    }
+    h4{
+        color: lightpink;
+        font-size: 35px ;
+       text-align: center;
+       padding: 40px;
+    }
+       p{
+        text-align: center;
+        padding: 40px;
+        color: black;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-image: linear-gradient(rgb(88, 82, 82),rgba(255, 182, 193, 0.723));
+       }
+       .gmail{
+        color: black;
+        text-decoration: none;
+        font-weight: 900;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       .gmail:hover{
+        color:palevioletred;
+       }
+    .icons{
+        background-image: black;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+h2{
+    background-image: linear-gradient(rgb(88, 82, 82),rgba(255, 182, 193, 0.723));
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+}
+h2:hover{
+    color: palevioletred;
+}
+
+
+@media screen and (max-width:650px){
+    .main{
+        a{
+        font-size: 12px;
+        }
+    }
+}
+
+
+@media screen and (max-width:650px){
+    #home{
+        flex-direction: row;
+        width: 100vh;
+    
+    }
+   #home .content{
+        flex-direction: column;
+        display: flex;
+
+    }
+   #home .content h1{
+        font-size: xx-large;
+        flex-direction: column;
+       
+    }
+    #home .content h4{
+        font-size: larger;
+        flex-direction: row;
+    }
+ button{
+    width: 50px;
+    height: 30px;
+    font-size: 8px;
+    padding-bottom: 25px;
+}
+ .i{
+  width: 10px;
+  font-size: 12px;
+  margin: 3px;
+  
+ 
+}
+ .p-img{
+    width: 130px;
+    height: 130px;
+}
+}
+
+@media screen and (max-width:650px){
+    .about{
+        width: 100vh;
+    }
+    .about h1{
+        font-size: xx-large;
+    }
+    .about h3{
+        font-size: medium;
+        padding: 30px;
+    }
+    .about p{
+        font-size: small;
+        padding: 50px;
+       
+}
+.about p span{
+    font-size: medium;
+}
+}
+
+@media screen and (max-width:650px){
+    .skills{
+        width: 100vh;
+    }
+    .skills h1{
+        font-size: xx-large;
+       padding-right: 150px;
+    }
+     .skill-img .s-img{
+       width: 70px;
+       height: 60px;
+    }
+     .meter{
+        padding-right: 120px;
+     }
+     b{
+        display: none;
+     }
+     }
+    
+     @media screen and (max-width:650px){
+        .projects{
+            width: 100vh;
+        } 
+        .projects h1{
+            font-size: xx-large;
+        }
+        .project-content{
+            margin: -10px;
+        }
+        .project-content  .pro-img{
+        width: 80px;
+        height: 80px;
+       }
+     }
+
+     @media screen and (max-width:650px){
+        .contact{
+            width: 100vh;
+        }
+        .contact h1{
+            font-size: xx-large;
+        }
+        .contact h4{
+            font-size: large;
+        }
+        .contact p{
+            font-size: medium;
+        }
+        h2{
+            font-size: 12px;
+        }
+        .gmail{
+            font-size: 13px;
+        }
+     }
+
+
+     
+
+
+
+     @media screen and (max-width:510px){
+        main{
+        a{
+            font-size: 10px;
+        }
+    }
+    #home{
+        flex-direction: row;
+        width: 50vh;
+        padding: 60px;
+    
+    }
+   #home .content{
+        flex-direction: column;
+        display: flex;
+
+    }
+   #home .content h1{
+        font-size:medium;
+        flex-direction: column;
+        margin-top: -20px;
+       
+    }
+    #home .content h4{
+        font-size: medium;
+        flex-direction: row;
+    }
+ button{
+    width: 50px;
+    height: 10px;
+    font-size: 6px;
+    
+}
+ .i{
+  width: 5px;
+  font-size: 8px;
+  margin: 2px;
+  
+ 
+}
+ .p-img{
+    width: 100px;
+    height: 100px;
+}
+
+}
